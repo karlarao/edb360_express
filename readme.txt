@@ -206,3 +206,24 @@ edb360 sections
 
 7a. AWR/ADDM/ASH Reports
 7b. SQL Sample
+
+****************************************************************************************
+
+Example runs 
+
+
+Execute everything 
+@edb360.sql T NULL
+
+
+Execute only sections 1 to 6
+@edb360.sql T 1-6
+
+
+Execute only sections 1 to 7a
+@edb360.sql T 1-7a
+
+
+
+Execute only section 7
+@edb360.sql T 7
